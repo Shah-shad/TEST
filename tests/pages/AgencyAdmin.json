@@ -1,0 +1,28 @@
+{
+    "Heading" : "//h3[contains(text(),'Home')]",
+    "Label" : "//div[contains(text(),'This application helps you manage your organisation’s (e.g. Travel Agency) NuFlights account. View your subscriptions, manage users, orders and transactions.')]",
+    "TransactionsButton" : "//li//a//div[contains(text(),'Transactions')]",
+    "Transaction" : {
+        "Heading" : "//h3[contains(text(),'Transactions')]",
+        "Airline" : {
+            "Field" : "//select[@id='airline']",
+            "Tag" : "Value"
+            },
+        "OrderRef" : "//input[@id='orderRef']",
+        "Passenger" : "//input[@id='passengerName']",
+        "TicketNo" : "//input[@id='ticketNo']",
+        "SearchRefreshButton" : "//button[contains(text(),'Search/Refresh')]",
+        "List" : "(//tr//td//div[contains(@class,'d-flex align-items-center')])[1]",
+        "DownloadButton" : "//button[@class='download-matched btn-red']",
+        "Table" : {
+            "IssueNumber" : "(//td[contains(@class,'ticket-status')]//preceding::td[1])",
+            "TypeStatus" : "(//td[contains(@class,'ticket-status')])",
+            "IssueDate" : "(//td[contains(@class,'ticket-status')]//following::td[1])",
+            "OrderRef" : "(//td[contains(@class,'ticket-status')]//following::td[2])",
+            "Sector" : "(//td[contains(@class,'ticket-status')]//following::td[3])",
+            "Passenger" : "(//td[contains(@class,'ticket-status')]//following::td[4])",
+            "Value" : "(//tr//child::td[contains(text(),'QAR')])",
+            "Checkboxes" : "(//label[contains(@class,'container-checkbox')])"      
+            }
+        }
+}

@@ -1,0 +1,102 @@
+{
+    "CountryPrice" : "(//div[@class='iata-select']//div[contains(@class,'selectbox')])[2]",
+    "Loading" : "//div[@class='loader-container']//div[@class='loader']",
+    "AnyList" : "(//div[contains(@class,'flight-card')]//div[@class='top d-flex align-items-center'])",
+    "QRList" : "(//div[contains(@class,'bottom')]//p[contains(text(),'QR')])",
+    "EKList" : "(//p[contains(text(),'EK')])",
+    "MulticityCard" : "(//div[contains(@class,'multi-city')])",
+    "NoResult" : "//div[contains(text(),'No Matching Results')]",
+    "AirlneBoxes" : "//label[@class='airline-wrapper']",
+    "ContinueButton" : "//button[contains(text(),'Continue')]",
+    "DiscountValue" : "(//label[contains(text(),'Discount')]//following::p)[1]",
+    "ServiceFeeValue" : "(//label[contains(text(),'Service Fee')]//following::p)[1]",
+    "CheckFareButton" : "//button[contains(text(),'Check Fare')]",
+    "AirlineFilter" :{
+        "QR" : "//div[@class='airline-filter']//label[contains(@for,'qr')]",
+        "EK" : "//div[@class='airline-filter']//label[contains(@for,'ek')]",
+        "SortingDropDown" : {
+            "Field" : "//select[@name='sortBy']",
+            "Tag" : "label",
+            "CheapestFirst" : "Cheapest first",
+            "FastestFirst" : "Fastest first"
+        }
+    },
+    "Ticket" : {
+        "Price" : "(//div//p[@class='price'])",
+        "TotalTimeTravel" : "(//div//p[@class='travel-time'])",
+        "DepartureTime" : "(//p[@class='travel-time']//preceding::div[1]//p[@class='time'])",
+        "ArrivalTime" : "(//p[@class='travel-time']//following::div[1]//p[@class='time'])",
+        "DirectFlight" : "//div//p[contains(@class,'stops') and contains(text(),'Non Stop')]",
+        "OneStop" : "//div//p[contains(@class,'stops') and contains(text(),'1 Stop')]",
+        "TwoStop" : "//div//p[contains(@class,'stops') and contains(text(),'2 Stop')]"
+    },
+    "FareDetails" : {
+        "Heading" : "(//h6[contains(text(),'Fare Details')])[1]",
+        "BaseFareValue" : "(//td[contains(text(),'Base Fare')]//following::td//span[@class='amount'])[2]",
+        "YQValue" : "//div[@class='tax-pills' and contains(text(),'YQ')]",
+        "YRValue" : "(//div[contains(text(),'YR')])[1]",
+        "TotalFare" : "(//td[contains(text(),'Total Fare')])//following::td",
+        "CloseButton" : "//span[@class='material-icons close-icon']",
+        "SubTypeCounts" : "//div[@class='tax-pills pointer-none']",
+        "SubTypeDiscount" : "(//td[contains(text(),'Discounts')]//following::div[@class='tax-pills pointer-none'])",
+        "SubTypeServiceFee" : "(//td[contains(text(),'Service Fee')]//following::div[@class='tax-pills pointer-none'])",
+        "TotalTax" : "(//td[contains(text(),'Tax Total')]//following::span[1])",
+        "GrayBlocks" : "(//div[@class='tax-pills'])"
+    },
+    "RBDCardBox" : {
+        "ExpandMore" : "(//span[@class='class-name']//following::i[1])",
+        "QRExpandMore" : "(//div[contains(@class,'bottom')]//p[contains(text(),'QR')]//preceding::i[contains(text(),'expand')][1])",
+        "EKExpandMore" : "(//div[contains(@class,'bottom')]//p[contains(text(),'EK')]//preceding::i[contains(text(),'expand')][1])",
+        "ExpandBusinessOfferForSelectedFlightCard" : "//div[contains(@class,'flight-card selected')]//child::div[contains(@class,'economy-text')]//span",
+        "CardCheckBox" : "(//label[contains(@for,'cardCheckbox')])[1]",
+        "RadioButton" : "//i[contains(text(),'radio')]",
+        "FirstRBDValue" : "(//p[contains(text(),'RBD') and contains(@class,'justify-content-between')]//child::span[contains(@class,'rbd-span')])[1]",
+        "RBDValue" : "(//p[contains(text(),'RBD') and contains(@class,'justify-content-between')]//child::span[contains(@class,'rbd-span')])",
+        "BaseFare" : "(//p[contains(text(),'Base:')]//span[contains(@class,'rbd-span')])",
+        "YQ" : "(//p[contains(text(),'YQ')])",
+        "YR" : "(//p[contains(text(),'YR')])",
+        "YQValue" : "(//p[contains(text(),'YQ')]//span)",
+        "YRValue" : "(//p[contains(text(),'YR')]//span)",
+        "FareBasis" : "(//p[contains(text(),'FareBasis')]//child::span[contains(@class,'fare-basis')])",
+        "Class" : "(//div[contains(@class,'class-title')]//p[contains(@class,'name')])",
+        "Close" : "//i[contains(text(),'close')]"
+    },
+    "Filters" : {
+        "Heading" : "//p[contains(text(),'Filters')]",
+        "ResetFilters" : "//div//p[contains(text(),'Reset filters')]",
+        "Connections" : {
+            "All" : "//label[@for='All']//p[1]",
+            "DirectFlight" : "//label[contains(@for,'Direct Flight')]//p[1]",
+            "OneStop" : "//label[contains(@for,'1 Stop')]//p[1]",
+            "TwoStop" : "//label[contains(@for,'2 Stop')]//p[1]"
+        },
+        "Price" : {
+            "Heading" : "//div//p[contains(text(),'Price')]",
+            "SliderEndRound" : "(//div//p[contains(text(),'Price')]//following::div[contains(@class,'price-filter') and @aria-label='Upper thumb'])[1]",
+            "Slider" : "//div//p[contains(text(),'Price')]//following::div[contains(@class,'example-track-1')][1]",
+            "SliderEndValue" : "(//div//p[contains(text(),'Price')]//following::div[contains(@class,'price-filter') and @aria-label='Upper thumb']//span[1])[1]"
+        },
+        "Duration" : {
+            "Heading" : "//div//p[contains(text(),'Duration (in Hrs)')]",
+            "SliderEndRound" : "(//div//p[contains(text(),'Duration')]//following::div[contains(@class,'price-filter') and @aria-label='Upper thumb'])[1]",
+            "Slider" : "//div//p[contains(text(),'Duration')]//following::div[contains(@class,'example-track-1')][1]",
+            "SliderEndValue" : "(//div//p[contains(text(),'Duration')]//following::div[contains(@class,'price-filter') and @aria-label='Upper thumb']//span[1])[1]",
+            "SliderStartValue" : "(//div//p[contains(text(),'Duration')]//following::div[contains(@class,'price-filter') and @aria-label='Lower thumb']//span[1])[1]"
+        },
+        "DepartureTime" : {
+            "Heading" : "//div//p[contains(text(),'Departure Time')]",
+            "BeforeSixamTab" : "//div//label[contains(@for,'Before 6amdeparture')]",
+            "SixamToTwelvepmTab" : "//div//label[contains(@for,'6am-12pmdeparture')]",
+            "TwelvepmToSixpmTab" : "//div//label[contains(@for,'12pm-6pmdeparture')]",
+            "AfterSixpmTab" : "//div//label[contains(@for,'After 6pmdeparture')]"
+        },
+        "ArrivalTime" : {
+            "Heading" : "//div//p[contains(text(),'Arrival Time')]",
+            "BeforeSixamTab" : "//div//label[contains(@for,'Before 6amarrival')]",
+            "SixamToTwelvepmTab" : "//div//label[contains(@for,'6am-12pmarrival')]",
+            "TwelvepmToSixpmTab" : "//div//label[contains(@for,'12pm-6pmarrival')]",
+            "AfterSixpmTab" : "//div//label[contains(@for,'After 6pmarrival')]"
+        }
+        
+    }
+}

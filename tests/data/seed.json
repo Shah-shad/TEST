@@ -1,0 +1,8 @@
+{
+    "UserHomepage": "https://home.staging.nuflights.com",
+    "AppWorkbench": "https://workbench.staging.nuflights.com",
+    "AppAgencyAdmin": "https://account.staging.nuflights.com",
+    "Profile" : "https://home.staging.nuflights.com/home/my-profile",
+    "Transactions" : "https://workbench.staging.nuflights.com/transactions"
+
+}

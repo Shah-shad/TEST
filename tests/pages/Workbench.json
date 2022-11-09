@@ -1,0 +1,56 @@
+{
+    "Heading" : "//h1[contains(text(),'Search Flights')]",
+    "DownloadTrace" : "(//div[@class='download-trace']//a[contains(text(),'Download Trace')])[1]",
+    "From" : "(//input[contains(@name,'departure')])",
+    "FromList" : "(//ul[@class='suggestion-list']//li)",
+    "To" : "(//input[contains(@name,'arrival')])",
+    "ToList" : "(//div[@class='suggestion-list']//div)",
+    "FlightSearchBtn" : "//button[contains(text(),'Search Flights')]",
+    "TripType" : {
+        "Click" : "//label[contains(text(),'Trip Type')]//following::div[1]",
+        "Menu" : "//div[@class='selectbox-dropdown']",
+        "OneWay" : "//li[contains(text(),'One Way')]",
+        "RoundTrip" : "//li[contains(text(),'Round Trip')]",
+        "MultiCity" : "//li[contains(text(),'Multi-City')]"
+    },
+    "Passenger" : {
+        "Click" : "(//label[contains(text(),'Passenger')]//following::div[1])",
+        "Menu" : "//div[@class='selectbox-dropdown passengers']",
+        "AdultText" : "(//p[contains(text(),'Adults')]//following::p[@class='counter-value'])[1]",
+        "AdultSub" : "(//p[contains(text(),'Adults')]//following::div//span[contains(text(),'-')])[1]",
+        "AdultAdding" : "(//p[contains(text(),'Adults')]//following::div//span[contains(text(),'+')])[1]",
+        "ChildText" : "(//p[contains(text(),'Child')]//following::p[@class='counter-value'])[1]",
+        "ChildAdding" : "(//p[contains(text(),'Child')]//following::div//span[contains(text(),'+')])[1]",
+        "InfantText" : "(//p[contains(text(),'Infant')]//following::p[@class='counter-value'])[1]",
+        "InfantAdding" : "(//p[contains(text(),'Infant')]//following::div//span[contains(text(),'+')])[1]"
+    },
+    "Cabin" : {
+        "Click" : "(//label[contains(text(),'Cabin')]//following::div[1])",
+        "Menu" : "//div[@class='selectbox-dropdown']",
+        "Economy" : "//li[contains(text(),'Economy')]",
+        "Business" : "//li[contains(text(),'Business')]",
+        "First" : "//li[contains(text(),'First/Premium')]"
+    },
+    "DepartureDate" : {
+        "Click" : "(//input[@placeholder='Select a departure date'])",
+        "Menu" : "//div[@class='react-datepicker-popper']",
+        "MenuMonthAndYear" : "//div[@class='react-datepicker__current-month']",
+        "NextMonth" : "//button[@aria-label='Next Month']",
+        "Day" : "(//div[contains(@class,'react-datepicker__day react-datepicker__day')])"
+    },
+    "ReturnDate" : {
+        "Click" : "//input[@placeholder='Select a return date']",
+        "Menu" : "//div[@class='react-datepicker-popper']",
+        "MenuMonthAndYear" : "//div[@class='react-datepicker__current-month']",
+        "NextMonth" : "//button[@aria-label='Next Month']",
+        "Day" : "(//div[contains(@class,'react-datepicker__day react-datepicker__day')])"
+    },
+    "RetrieveOrdersButton" : "//button[contains(text(),'Retrieve Orders')]",
+    "AddTripButton" : "//button[@class='add-btn']",
+    "Transactions"          : "(//button[contains(text(),'Transactions')])",
+    "NearByairport"         : "(//span[./text()='Nearby Airport'])",
+    "SplitTicket"           : "(//span[./text()='Split Ticket'])",
+    "CoperateFare"          : "(//span[./text()='Corporate Fare'])",
+    "ResetSearchbtn"        : "(//button[contains(text(),'Reset Search')])"
+
+}

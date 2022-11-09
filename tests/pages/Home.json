@@ -1,0 +1,22 @@
+{
+    "Home" : {
+        "Heading" : "//h3[contains(text(),'Home')]",
+        "Label" : "//div[contains(text(),'Where to? Choose your app below. These are always in your app tray above.')]",
+        "AgencyAdmin" : "(//div[contains(text(),'Agency Admin')])",
+        "TravelWorkbench" : "(//div[contains(text(),'Travel Workbench')])",
+        "MenuButton" : "(//div[contains(@class,'header-menu__list')]//i)[1]",
+        "Menu" : {
+            "Heading" : "//h6[contains(text(),'Applications')]",
+            "Agency Admin" : "(//div[contains(@class,'menu-item d-flex flex-column align-items-center j')])[1]",
+            "TravelWorkbench" : "(//div[contains(@class,'menu-item d-flex flex-column align-items-center j')])[2]"
+        }
+    },
+    "TravelWorkbench" : {
+
+    },
+
+    "AgencyAdmin" : {
+        "Heading" : "//h3[contains(text(),'Home')]",
+        "Dashboard" : "//div[contains(text(),'Dashboard')]"
+    }
+}

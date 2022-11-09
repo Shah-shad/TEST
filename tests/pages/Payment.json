@@ -1,0 +1,39 @@
+{
+    "Heading" : "//h3[contains(text(),'Payment')]",
+    "ErrorAlert" : "//div[@role='alert']",
+    "ContinueButton" : "//button[contains(text(),'Continue')]",
+    "FareDetails" : {
+        "Heading" : "//h3[contains(text(),'Fare Details')]",
+        "BaseFareValue" : "(//tr//td[contains(text(),'Base Fare')]//following::td)[1]",
+        "Discounts" : "(//tr//td[contains(text(),'Discounts')]//following::td)[1]",
+        "ServiceFee" : "(//tr//td[contains(text(),'Service Fees')]//following::td)[1]"
+    },
+    "NetSupplierPayment" : "//span[@class='total-amount-input']",
+    "SupplierPaymentTab" : "//a[contains(text(),'Supplier Payment')]",
+    "SupplierPaymentTabActive" : "//li[@class='active']//a[contains(text(),'Supplier Payment')]",
+    "SupplierPayment" : {
+        "PayWithFOP" : {
+            "Field" : "//select[contains(@id,'fop0')]",
+            "Tag" : "Label"
+        },
+        "CardName" : {
+            "Field" : "//select[contains(@id,'cardName')]",
+            "Tag" : "Label"
+        },
+        "ExpiryDate" : "(//div//input[contains(@value,'/')])[1]",
+        "SupplierDiscount" : "//p[contains(@class, 'note') and contains(text(),'Supplier Discounts')]",
+        "SupplierServiceFee" : "//p[contains(@class, 'note') and contains(text(),'Supplier Service Fee')]"
+    },
+    "CustomerPaymentTab" : "//a[contains(text(),'Customer Payment')]",
+    "CustomerPaymentTabActive" : "//li[@class='active']//a[contains(text(),'Customer Payment')]",
+    "CustomerPayment" : {
+        "IssueButton" : "//button[contains(text(),'Issue')]",
+        "CustomerAccountCode" : "//p[contains(text(),'Customer Account Code')]//following::div[contains(@class,'input-wrap')]//input"
+
+    },
+    "ViewOrderButton" : "//button[contains(text(),'View Order')]",
+    "PrintButton" : "//button//i[contains(text(),'print')]",
+    "EmailButton" : "//button//i[contains(text(),'email')]",
+    "Error" : "//strong[contains(text(),'Errors:')]",
+    "ErrorMessage" : "//strong[contains(text(),'Errors:')]//following::p[1]"
+}

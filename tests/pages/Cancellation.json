@@ -1,0 +1,9 @@
+{
+    "Heading" : "//h3[contains(text(),'Cancellation')]",
+    "ConfirmCancellationButton" : "//button[contains(text(),'Confirm Cancellation')]",
+    "ErrorAlert" : "//div[@role='alert']",
+    "AfterClickingConfirmCancellationButton" : {
+        "CancelIcon" : "//img[contains(@src,'canceled')]",
+        "ViewOrderButton" : "//button[contains(text(),'View Order')]"
+    } 
+}

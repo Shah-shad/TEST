@@ -1,0 +1,9 @@
+{
+
+    "Heading" : "//h1[contains(text(),'Login')]",
+    "Username" : "//input[@name='username']",
+    "Password" : "//input[@name='password']",
+    "Button" : "//button[contains(text(),'Login')]"
+
+
+}

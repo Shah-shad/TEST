@@ -1,0 +1,117 @@
+{
+    "Heading" : "//h1[contains(text(),'NuFlights Order')]",
+    "BookingReference" : "(//p[contains(text(),'Booking Reference')]//following::p[@class='value'])[1]",
+    "OrderNumber" : "//p[contains(text(),'Order Number')]//following::p[1]",
+    "Status" : "(//p[contains(text(),'Status')]//following::div[1])[1]",
+    "BookingDate" : "(//p[contains(text(),'Booking Date')]//following::p[1])[1]",
+    "Airline" : "(//p[contains(text(),'Airline')]//following::p[1])[1]",
+    "TravelFrom" : "(//p[contains(text(),'Travel From')]//following::p)[1]",
+    "TravelTo" : "(//p[contains(text(),'Travel To')]//following::p)[1]",
+    "TravelDate" : "(//p[contains(text(),'Travel Date')]//following::p)[1]",
+    "PassengerSummary" : "(//p[contains(text(),'Passenger Summary')]//following::p)[1]",
+    "CancelButton" : "//button[contains(text(),'Cancel Order')]",
+    "Tabs" : "(//div[contains(@class,'tab-bar')]//ul//li)",
+    "Agency" : "//div[contains(@class,'user-type')]//p[2]",
+    "SharedAgencyWithIataNumber" : "//div[contains(@class,'iata-dropdown')]//div//div[contains(@class,'selectbox')]",
+    "CurrencyUsed" : "(//div[contains(@class,'selectbox')])[2]",
+    "PassengerItenerary" : "(//li[contains(text(),'Passenger Itineraries')])",
+    "PrintButton" : "(//button//i[contains(text(),'print')])",
+    "EmailButton" : "(//button//i[contains(text(),'email')])",
+    "AfterClickingCancel" : {
+        "Message" : "//p[contains(text(),'You are about to cancel the order')]",
+        "ProceedButton" : "//button[contains(text(),'Proceed')]"
+    },
+    "CancelIcon" : "//td[@class='order-section']//div[contains(text(),'Cancelled')]",
+    "TicketedIcon" : "(//td[@class='order-section']//div[contains(text(),'Ticketed')])[1]",
+    "BookedIcon" : "(//td[@class='order-section']//div[contains(text(),'Booked')])[1]",
+    "RecentOrderChanges" : {
+        "RecentOrderChangesHeading" : "//p[contains(text(),'Recent Order Changes')]",
+        "RecentOrderChangesErrorMessage" : "//p[contains(text(),'One or more services is awaiting allocation from provider. Refresh the order to confirm allocation of the service.')]",
+        "RefreshButton" : "//button[contains(text(),'Refresh Order')]"
+    },
+    "OrderPrice" : {
+        "BaseFare" : "(//td[contains(text(),'Base fare')]//following::tr//td)[1]",
+        "SubTypeCount" : "(//td[contains(text(),'Discounts')]//following::tr//td)[7]//div//div[@class='tax-pills']",
+        "Total_Discount" : "(//td[contains(text(),'Discounts')]//following::tr//td)[7]",
+        "Total_ServiceFee" : "(//td[contains(text(),'Service fee')]//following::tr//td)[8]",
+        "SubType_Discount" : "((//td[contains(text(),'Discounts')]//following::tr//td)[7]//div//div[@class='tax-pills'])",
+        "SubType_ServiceFee" : "((//td[contains(text(),'Service fee')]//following::tr//td)[8]//div//div[@class='tax-pills'])",
+        "SeatCharges" : "(//td[contains(text(),'Paid seats')]//following::td)[10]",
+        "AncillariesFare" : "(//table[contains(@class,'fare-table')])[2]//td[5]",
+        "NetPrice" : "//table[@class='fare-table']//tr//td//strong"
+    },
+    "IssueButton" : "//button[contains(text(),'Issue')]",
+    "RefreshButtonInsideThePopUpAfterClickingIssue" : "(//button[contains(text(),'Refresh Order')])[2]",
+    "PaymentForThisOrder" : {
+        "Heading" : "//p[contains(text(),'Payment for this order')]",
+        "ProceedButton" : "//button[contains(text(),'Proceed')]"
+    },
+    "OrderDetails" : {
+        "Managejourney" : "//button[contains(text(),'Manage journey')]",
+        "ManageSeats" : "//button//span[contains(text(),'Manage seats')]",
+        "ManageAncillaries" : "(//button[contains(@class,'btn--manage')])[4]",
+        "ManagePassengers" : "//button[contains(text(),'Manage passengers')]"
+    },
+    "JourneySegments" : {
+        "SegmentNumber" : "(//div[contains(@class,'segment-holder')])",
+        "DepartureAndArrivalCode" : "(//td//div//p[contains(@class,'airport')]//child::span)",
+        "DepartureAndArrival" : "(//td//div//p[contains(@class,'airport')])",
+        "FlightNumber" : "(//p[contains(text(),'Flight Number :')]//span)",
+        "Segment" : "(//p[contains(text(),'Segment:')]//span)",
+        "FlightDate" : "(//div//p[contains(@class,'date')])"
+    },
+    "Passengers" : {
+        "PaxTag" : "(//div[@class='link'])",
+        "PassengerName" : "(//div[@class='name'])", 
+        "PassengerNameINF" : "(//div[@class='name' and contains(text(),'INF')])",
+        "PassengerDetails" : "(//div[@class='name']//parent::td[1])", 
+        "PassengerRef" : "((//div[@class='name'])//preceding::td[1])",
+        "PassengerRefINF" : "((//div[@class='name' and contains(text(),'INF')])//preceding::td[1])",
+        "TINFIssueNumber" : "((//div[@class='tool-tip']//parent::div[contains(text(),'T-INF')])//following::strong[1])",
+        "ETKTIssueNumber" : "((//div[@class='tool-tip']//parent::div[contains(text(),'E-TKT')])//following::strong[1])",
+        "EMDIssueNumber" : "((//div[@class='tool-tip']//parent::div[contains(text(),'EMD')])//following::strong[1])",
+        "TicketIconETKT" : "(//div[contains(text(),'E-TKT') and not(contains(text(),'Ticket (electronic)')) and not(contains(text(),'Void'))])",
+        "TicketIconINF" : "(//div[contains(text(),'T-INF') and not(contains(text(),'Infant ticket')) and not(contains(text(),'Void'))])",
+        "TicketIconEMD" : "(//div[contains(text(),'EMD') and not(contains(text(),'Associated')) and not(contains(text(),'Void'))])",
+        "ETKTAmount" : "(((//div[@class='tool-tip']//parent::div[contains(text(),'E-TKT')])//following::strong[1])//parent::div//parent::div//div[contains(@class,'tax-pills')]//strong)",
+        "TINFAmount" : "(((//div[@class='tool-tip']//parent::div[contains(text(),'T-INF')])//following::strong[1])//parent::div//parent::div//div[contains(@class,'tax-pills')]//strong)",
+        "EMDAmount" : "(((//div[@class='tool-tip']//parent::div[contains(text(),'EMD')])//following::strong[1])//parent::div//div[contains(@class,'tax-pills')]//strong)",
+        "SeatIcon" : "(//div[contains(@class,'short-desc')])[5]",
+        "ShortDescriptionETKT" : "((//div[@class='tool-tip']//parent::div[contains(text(),'E-TKT')])//following::div[contains(@class,'short-desc')][1])",
+        "ShortDescriptionETKTToolTip" : "((//div[@class='tool-tip']//parent::div[contains(text(),'E-TKT')])//following::div[contains(@class,'short-desc')][1]//div[@class='tool-tip'])",
+        "ShortDescriptionINF" : "((//div[@class='tool-tip']//parent::div[contains(text(),'T-INF')])//following::div[contains(@class,'short-desc')][1])",
+        "ShortDescriptionINFToolTip" : "((//div[@class='tool-tip']//parent::div[contains(text(),'T-INF')])//following::div[contains(@class,'short-desc')][1]//div[@class='tool-tip'])",
+        "ShortDescriptionEMDToolTip" : "(((//div[@class='tool-tip']//parent::div[contains(text(),'EMD')])//following::div[contains(@class,'short-desc')][1])//div[@class='tool-tip'])",
+        "ShortDescriptionEMD" : "((//div[@class='tool-tip']//parent::div[contains(text(),'EMD')])//following::div[contains(@class,'short-desc')][1])",
+        "AncillariesIcon" : "(//div[contains(@class,'short-desc') and contains(text(),'EMD')])",
+        "OrderRef" : "(//th[contains(text(),'Order Ref')]//following::td)[4]",
+        "SeatFare" : "(//strong[contains(text(),'Total:')])[2]",
+        "SegmentStatus" : "(//div[contains(@class,'align-items-center')])[16]",
+        "SeatIssueDate" : "(//div[contains(@class,'tax-pills')])[4]",
+        "ShortDescriptionIcon" : "(//div[contains(@class,'short-desc')])[3]",
+        "AncillariesAndSeatFare" : "((//div[contains(@class,'short-desc') and contains(text(),'EMD')])//following::strong[2])",
+        "ShortDescriptionIconToolTip" : "(//div[contains(text(),'OriginalIssueOpen')])[2]",
+        "SegmentStatusUnderSeats" : "(//div[contains(@class,'short-desc')])[4]",
+        "SegmentStatusUnderSeatsToolTip" : "(//div[contains(@class,'tool-tip')])[5]",
+        "SeatNumberInsidePassenger" : "(//td[3]//div[contains(@class,'m-r-10 d-flex align-items-center')])"
+    },
+    "PassengerIteneraries" : {
+        "PassengerNumber" : "(//p[contains(text(),'Passport Number')]//following::p[1])",
+        "PassportNationality" : "(//p[contains(text(),'Nationality')]//following::p[1])",
+        "DOB" : "(//p[contains(text(),'DOB')]//following::p[1])",
+        "PassengerName" : "(//p[contains(text(),'Passenger Name')]//following::p[1])",
+        "TicketNumber" : "(//p[contains(text(),'Ticket Number')]//following::p[1])",
+        "PassengerEmailID" : "(//p[contains(text(),'Email')]//following::p[1])",
+        "PassengerPhoneNumber" : "(//p[contains(text(),'Contact')]//following::p[1])",
+        "PassengerIteneraryDetails" : "(//div[@class='itinerary-details-wrap'])",
+        "PassengerItenerarySummary" : "(//div[@class='itinerary-summary card--order-summary'])"
+    },
+    "EmailOrderItinerary" : {
+        "Heading" : "//h6[contains(text(),'Email Order Itinerary')]",
+        "AlsoToField" : "//input[@name='alsoTo']",
+        "SendButton" : "//button[contains(text(),'Send')]",
+        "Tag" : "//div[@class='tag-item']",
+        "SuccessMessage" : "(//div[contains(text(),'Itinerary sent by email')])"
+    }
+
+}

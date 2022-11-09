@@ -1,0 +1,8 @@
+{
+    "Heading" : "//h1[contains(text(),'Retrieve Orders')]",
+    "SearchOrders" : {
+        "InputBookingRef" : "//input[@name='bookingRef']",
+        "SearchButton" : "//button[contains(text(),'Search')]"
+    },
+    "OrdersList" : "(//td[contains(@class,'link')])[1]"
+}

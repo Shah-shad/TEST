@@ -1,0 +1,22 @@
+{
+    "Agency-T-APEX" : {
+        "Name": "NF Sky Air Travels",
+        "Users": [
+            {
+                "Ref": "Agent-01",
+                "Username": "jeet2das2+nfsat@gmail.com",
+                "Password": "Jeet@123"
+            },
+            {
+                "Ref": "Agent-02",
+                "Username": "jeet2das2+nfgta@gmail.com",
+                "Password": "Jeet@123"
+            },
+            {
+                "Ref": "Admin-03",
+                "Username": "some@thing.com",
+                "Password": "someP@ssW0rd"
+            }
+        ]
+    }
+}

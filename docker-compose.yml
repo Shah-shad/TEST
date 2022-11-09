@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  robotfw:
+    env_file: .env-docker
+    restart: "no"
+    build:
+      context: .
+      dockerfile: dockerfiles/robotfw/Dockerfile
+    command: robot -d /app/tests/results /app/tests/
+    volumes:
+      - ./:/app

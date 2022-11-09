@@ -1,0 +1,914 @@
+{
+    "Agency-T-APEX": {
+        "masterRules": [
+            {
+                "shortDescription": "Goodwills special discount",
+                "ruleSet": "CustomerDiscounts01",
+                "Type": "Discount",
+                "SubType": "Standard",
+                "appliesTo": "SubAgency",
+                "startDate": "2022-05-25",
+                "endDate": "YYYY-MM-DD",
+                "qualifiers": [
+                    {
+                        "ref": "01",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%1+[YQ]%1+[YR]%1",
+                        "validatingItineraryRef": "01"
+                    },
+                    {
+                        "ref": "02",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%2+[YQ]%2+[YR]%2",
+                        "validatingItineraryRef": "02"
+                    },
+                    {
+                        "ref": "03",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%3+[YQ]%3+[YR]%3",
+                        "validatingItineraryRef": "03"
+                    },
+                    {
+                        "ref": "04",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%4+[YQ]%4+[YR]%4",
+                        "validatingItineraryRef": "04"
+                    },
+                    {
+                        "ref": "05",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%5+[YQ]%5+[YR]%5",
+                        "validatingItineraryRef": "05"
+                    },
+                    {
+                        "ref": "06",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%6+[YQ]%6+[YR]%6",
+                        "validatingItineraryRef": "06"
+                    },
+                    {
+                        "ref": "07",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%7+[YQ]%7+[YR]%7",
+                        "validatingItineraryRef": "07"
+                    },
+                    {
+                        "ref": "08",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%8+[YQ]%8+[YR]%8",
+                        "validatingItineraryRef": "08"
+                    },
+                    {
+                        "ref": "09",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%9+[YQ]%9+[YR]%9",
+                        "validatingItineraryRef": "09"
+                    },
+                    {
+                        "ref": "10",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%10+[YQ]%10+[YR]%10",
+                        "validatingItineraryRef": "10"
+                    },
+                    {
+                        "ref": "11",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%11+[YQ]%11+[YR]%11",
+                        "validatingItineraryRef": "11"
+                    },
+                    {
+                        "ref": "12",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%12+[YQ]%12+[YR]%12",
+                        "validatingItineraryRef": "12"
+                    },
+                    {
+                        "ref": "13",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%13+[YQ]%13+[YR]%13",
+                        "validatingItineraryRef": "13"
+                    },
+                    {
+                        "ref": "14",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%14+[YQ]%14+[YR]%14",
+                        "validatingItineraryRef": "14"
+                    },
+                    {
+                        "ref": "15",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%15+[YQ]%15+[YR]%15",
+                        "validatingItineraryRef": "15"
+                    },
+                    {
+                        "ref": "16",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%16+[YQ]%16+[YR]%16",
+                        "validatingItineraryRef": "16"
+                    },
+                    {
+                        "ref": "17",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%17+[YQ]%17+[YR]%17",
+                        "validatingItineraryRef": "17"
+                    },
+                    {
+                        "ref": "18",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%18+[YQ]%18+[YR]%18",
+                        "validatingItineraryRef": "18"
+                    },
+                    {
+                        "ref": "19",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%19+[YQ]%19+[YR]%19",
+                        "validatingItineraryRef": "19"
+                    },
+                    {
+                        "ref": "20",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "DiscountFormula": "[Base Fare]%20+[YQ]%20+[YR]%20",
+                        "validatingItineraryRef": "20"
+                    }
+                ]
+            },
+
+
+            {
+                "shortDescription": "General service charge",
+                "ruleSet": "CustomerServiceFees01",
+                "Type": "ServiceFee",
+                "SubType": "Standard",
+                "appliesTo": "Sub Agency",
+                "startDate": "2022-11-29",
+                "endDate": "YYYY-MM-DD",
+                "qualifiers": [
+                    {
+                        "ref": "01",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": "[Base Fare]%20+[YQ]%20+[YR]%20",
+                        "validatingItineraryRef": "01"
+                    },
+                    {
+                        "ref": "02",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%19+[YQ]%19+[YR]%19",
+                        "validatingItineraryRef": "01"
+                    },
+                    {
+                        "ref": "03",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%18+[YQ]%18+[YR]%18",
+                        "validatingItineraryRef": "03"
+                    },
+                    {
+                        "ref": "04",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%17+[YQ]%17+[YR]%17",
+                        "validatingItineraryRef": "04"
+                    },
+                    {
+                        "ref": "05",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%16+[YQ]%16+[YR]%16",
+                        "validatingItineraryRef": "05"
+                    },
+                    {
+                        "ref": "06",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%15+[YQ]%15+[YR]%15",
+                        "validatingItineraryRef": "06"
+                    },
+                    {
+                        "ref": "07",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%14+[YQ]%14+[YR]%14",
+                        "validatingItineraryRef": "07"
+                    },
+                    {
+                        "ref": "08",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%13+[YQ]%13+[YR]%13",
+                        "validatingItineraryRef": "08"
+                    },
+                    {
+                        "ref": "09",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%12+[YQ]%12+[YR]%12",
+                        "validatingItineraryRef": "09"
+                    },
+                    {
+                        "ref": "10",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%11+[YQ]%11+[YR]%11",
+                        "validatingItineraryRef": "10"
+                    },
+                    {
+                        "ref": "11",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%10+[YQ]%10+[YR]%10",
+                        "validatingItineraryRef": "11"
+                    },
+                    {
+                        "ref": "12",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%9+[YQ]%9+[YR]%9",
+                        "validatingItineraryRef": "12"
+                    },
+                    {
+                        "ref": "13",
+                        "airlineCodes": "EK",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%8+[YQ]%8+[YR]%8",
+                        "validatingItineraryRef": "13"
+                    },
+                    {
+                        "ref": "14",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%7+[YQ]%7+[YR]%7",
+                        "validatingItineraryRef": "14"
+                    },
+                    {
+                        "ref": "15",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%6+[YQ]%6+[YR]%6",
+                        "validatingItineraryRef": "15"
+                    },
+                    {
+                        "ref": "16",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%5+[YQ]%5+[YR]%5",
+                        "validatingItineraryRef": "16"
+                    },
+                    {
+                        "ref": "17",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%4+[YQ]%4+[YR]%4",
+                        "validatingItineraryRef": "17"
+                    },
+                    {
+                        "ref": "18",
+                        "airlineCodes": "QR",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%3+[YQ]%3+[YR]%3",
+                        "validatingItineraryRef": "18"
+                    },
+                    {
+                        "ref": "19",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%2+[YQ]%2+[YR]%2",
+                        "validatingItineraryRef": "19"
+                    },
+                    {
+                        "ref": "20",
+                        "airlineCodes": "Any",
+                        "origins": "Any",
+                        "originsExcept": "",
+                        "destinations": "Any",
+                        "destinationsExcept": "",
+                        "travelDate": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "travelDateExcept": {
+                            "from": "",
+                            "to": ""
+                        },
+                        "cabinClasses": "",
+                        "RBDs": "",
+                        "RBDsExcept": "",
+                        "paxTypes": "",
+                        "ServiceFeeFormula": " [Base Fare]%1+[YQ]%1+[YR]%1",
+                        "validatingItineraryRef": "20"
+                    }
+                ]
+            }
+            
+
+        ]
+        
+    }
+}
+

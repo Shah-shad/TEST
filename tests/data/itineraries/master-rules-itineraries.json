@@ -1,0 +1,284 @@
+{
+    "itineraries": [
+        {
+            "ref": "01",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "LAX",
+                    "destination": "LHE",
+                    "departureDateOffset": "27/01/2023",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "02",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "DXB",
+                    "destination": "CDG",
+                    "departureDateOffset": "45",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T1-CHD", "T1-INF"]
+        },
+        {
+            "ref": "03",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "COK",
+                    "destination": "DXB",
+                    "departureDateOffset": "10/10/2022",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "04",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "DXB",
+                    "destination": "CPH",
+                    "departureDateOffset": "60",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "05",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "BOM",
+                    "destination": "DOH",
+                    "departureDateOffset": "60",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "06",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "BLR",
+                    "destination": "SYD",
+                    "departureDateOffset": "30/01/2023",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "07",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "LAX",
+                    "destination": "LHE",
+                    "departureDateOffset": "26/01/2023",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "08",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "COK",
+                    "destination": "DXB",
+                    "departureDateOffset": "05/03/2023",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "09",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "JFK",
+                    "destination": "ISB",
+                    "departureDateOffset": "02/01/2023",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "10",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "LHR",
+                    "destination": "DXB",
+                    "departureDateOffset": "60",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "11",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "DXB",
+                    "destination": "COK",
+                    "departureDateOffset": "60",
+                    "cabin": "Business",
+                    "rbd": ["except K"]     
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "12",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "DEL",
+                    "destination": "DXB",
+                    "departureDateOffset": "60",
+                    "cabin": "Business",
+                    "rbd": ["I", "O", "C", "A"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "13",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "LHR",
+                    "destination": "DXB",
+                    "departureDateOffset": "60",
+                    "cabin": "First",
+                    "rbd": ["A"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT"]
+        },
+        {
+            "ref": "14",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "ISB",
+                    "destination": "JFK",
+                    "departureDateOffset": "04/01/2023",
+                    "cabin": "Business",
+                    "rbd": ["A"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD"]
+        },
+        {
+            "ref": "15",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "ISB",
+                    "destination": "JFK",
+                    "departureDateOffset": "60",
+                    "cabin": "First",
+                    "rbd": ["J"]
+                
+            },
+            "paxList": ["T1-CHD"]
+        },
+        {
+            "ref": "16",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "LHR",
+                    "destination": "DXB",
+                    "departureDateOffset": "18/09/2022",
+                    "cabin": "Business",
+                    "rbd": ["R", "C"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "17",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "MCT",
+                    "destination": "DOH",
+                    "departureDateOffset": "60",
+                    "cabin": "Business",
+                    "rbd": ["C"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF", "T2-INF"]
+        },
+        {
+            "ref": "18",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "BOM",
+                    "destination": "DOH",
+                    "departureDateOffset": "21/09/2022",
+                    "cabin": "Business",
+                    "rbd": ["R"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF", "T2-INF"]
+        },
+        {
+            "ref": "19",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "MCT",
+                    "destination": "DOH",
+                    "departureDateOffset": "60",
+                    "cabin": "Economy",
+                    "rbd": ["S", "H"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF", "T2-INF"]
+        },
+        {
+            "ref": "20",
+            "ODList": {
+                
+                    "triptype" : "One Way",
+                    "origin": "MCT",
+                    "destination": "DOH",
+                    "departureDateOffset": "05/12/2022",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+                
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        }
+    ]
+}

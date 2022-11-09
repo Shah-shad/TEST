@@ -1,0 +1,12 @@
+{
+    "Heading" : "//h3[contains(text(),'Transactions')]",
+    "Airline" : {
+        "Field" : "//select[@id='airLine']",
+        "Tag" : "Value"
+        },
+    "OrderRef" : "//input[@id='orderRef']",
+    "AuditViewSlider" : "//span[@class='slider round']",
+    "DownloadButton" : "//button[@class='download-matched btn-red']",
+    "SearchRefreshButton" : "//button[contains(text(),'Search/Refresh')]",
+    "List" : "(//tr//td//div[contains(@class,'d-flex align-items-center')])[1]"
+}

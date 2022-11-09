@@ -1,0 +1,107 @@
+{
+    "itineraries": [
+        {
+            "ref": "01",
+            "ODList": {
+                    "airlinecodes" : "EK",
+                    "triptype" : "One Way",
+                    "origin": "LHR",
+                    "destination": "DXB",
+                    "departureDateOffset": "100",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "02",
+            "ODList": {
+                    "airlinecodes" : "EK",
+                    "triptype" : "Round Trip",
+                    "origin": "LHR",
+                    "destination": "DXB",
+                    "departureDateOffset": "150",
+                    "returnDateOffset": "6",
+                    "cabin": "Economy",
+                    "returncabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "03",
+            "ODList": {
+                    "airlinecodes" : "EK",
+                    "triptype" : "Multi City",
+                    "origin": "DEL",
+                    "destination": "DXB",
+                    "secondorigin": "DXB",
+                    "seconddestination": "CDG",
+                    "thirdorigin": "MXP",
+                    "thirddestination": "JFK",
+                    "departureDateOffset": "149",
+                    "addingDateOffset": "15",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "04",
+            "ODList": {
+                    "airlinecodes" : "QR",
+                    "triptype" : "One Way",
+                    "origin": "DOH",
+                    "destination": "DXB",
+                    "departureDateOffset": "100",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "05",
+            "ODList": {
+                    "airlinecodes" : "QR",
+                    "triptype" : "One Way",
+                    "origin": "DOH",
+                    "destination": "DXB",
+                    "departureDateOffset": "100",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        },
+        {
+            "ref": "06",
+            "ODList": {
+                    "airlinecodes" : "QR",
+                    "triptype" : "Round Trip",
+                    "origin": "DEL",
+                    "destination": "DOH",
+                    "departureDateOffset": "100",
+                    "returnDateOffset": "6",
+                    "cabin": "Economy",
+                    "returncabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD"]
+        },
+        {
+            "ref": "07",
+            "ODList": {
+                    "airlinecodes" : "QR",
+                    "triptype" : "Multi City",
+                    "origin": "COK",
+                    "destination": "DOH",
+                    "secondorigin": "DOH",
+                    "seconddestination": "LHR",
+                    "departureDateOffset": "149",
+                    "addingDateOffset": "15",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT", "T1-CHD", "T2-CHD", "T1-INF"]
+        }
+    ]
+    }

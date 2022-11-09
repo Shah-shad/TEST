@@ -1,0 +1,97 @@
+{
+    "Seats": {
+        "Heading" : "//h3[contains(text(),'Update Order -')]",
+        "PaidSeats" : "(//div[contains(@class,'row-cell available color') and not(contains(@class,'selected'))][.//span[contains(text(),'CH')]])",
+        "PaidSeatsToolTip" : "((//div[contains(@class,'row-cell available color') and not(contains(@class,'selected'))][.//span[contains(text(),'CH')]])//div[@class='seat-tooltip'])",
+        "FreeSeats" : "(//div[contains(@class,'row-cell available free') and not(contains(@class,'selected'))])",
+        "FreeSeatsToolTip" : "(//div[contains(@class,'row-cell available free') and not(contains(@class,'selected'))]//div[@class='seat-tooltip'])",
+        "SeatNumberInPopupBoxAfterTicketSelection" : "(//div[contains(@class,'head')]//p[contains(text(),'Seat')])",
+        "SeatPriceInPopupBoxAfterTicketSelection" : "//div[contains(@class,'modal-container')]//p[contains(@class,'ml-auto')]",
+        "RadioButtonInPopupBoxAfterTicketSelection" : "(//i[contains(@id,'unchecked') and contains(text(),'radio_button_unchecked')])",
+        "PaidSelectedSeat" : "(//div[contains(@class,'row-cell available color') and (contains(@class,'selected'))][.//span[contains(text(),'CH')]])",
+        "FreeSelectedSeat" : "(//div[contains(@class,'row-cell available free') and contains(@class,'selected')])",
+        "ProceedAndConfirm" : "//button[contains(text(),'Proceed & Confirm')]",
+        "GoToOrderDetailsButton" : "//button[contains(text(),'Go to order details')]",
+        "PopUpAfterAssigningTicket" : "//strong[contains(text(),'Order updated with assigned seats!')]",
+        "ViewOrderButton" : "//button[contains(text(),'View Order')]",
+        "FareDetails" : {
+            "ExpandButton":"//i[contains(text(),'expand_more')]",
+            "SeatCharges" : "(//td[contains(text(),'Seat Charges')]//following::td)[1]"
+                        }
+            },
+    "Ancillaries" : {
+        "DropdownField" : "(//select[contains(@class,'selectbox')])",
+        "DropdownTag" : "label",
+        "PricePoint" : "(//div[@class='price-point'])",
+        "AncillaryToBeSelected" : "(//option[contains(text(),'PrePaid')])[1]"
+                    }   ,
+    "OrderReshop" : {
+        "Heading" : "//h3[contains(text(),'Update Order')]",
+        "ProceedAndConfirm" : "//button[contains(text(),'Proceed & Confirm')]",
+        "Booked" : {
+            "ViewOrderButton" : "//button[contains(text(),'View Order')]",
+            "BookingReference" : "//p[contains(text(),'Booking Reference')]//following::p[contains(@class,'value')]"
+        }
+    },
+    "ManagePassenger" : {
+        "Heading" : "//h3[contains(text(),'Update Order')]",
+        "FareDetailsHeading" : "//h3[./text()='Fare Details']",
+        "PaxTag" : "(//div[@class='link'])",
+        "RemoveCheckBox" : "(//div//label[contains(text(),'Remove')])",
+        "PassengerCount" : "(//div[@class='link'])",
+        "PassportNumber" : "(//input[contains(@name,'passportNumber')])",
+        "PassportNationality" : {
+            "Selected" : "(//select[contains(@name,'nationality')]//option[@selected])",
+            "Field" : "(//select[contains(@name,'nationality')])",
+            "Tag" : "label"
+        },
+        "DOB" : {
+            "Field" : "(//input[contains(@name,'dob')])"
+        },
+        "Title" : {
+            "Selected" : "((//select[@name='title'])//option[@selected])",
+            "Field" : "(//select[contains(@name,'title')])"
+
+        },
+        "Gender" : {
+            "Selected" : "(//select[contains(@name,'gender')]//option[@selected])",
+            "Field" : "(//select[contains(@name,'gender')])",
+            "Tag" : "label"
+        },
+        "PassportExpiry" :{ 
+            "Icon" : "(//input[@placeholder='Passport Expiry']//following::button[@class='btn-date-icon'][1])",
+            "Field" : "(//input[contains(@name,'passportExpiry')])",
+            "YearField" : "//select[@class='react-datepicker__year-select']",
+            "Tag" : "value"
+        },
+        "DefaultDateSelected" : "(//div[contains(@class,'selected')])",
+        "FirstName" : "(//input[contains(@name,'firstName')])",
+        "MiddleName" : "(//input[contains(@name,'middleName')])",
+        "InfantMiddleName" : "(//div[contains(@class,'disabled')]//input[@name='middleName'])",
+        "LastName" : "(//input[contains(@name,'lastName')])",
+        "PhoneNumber" : "(//input[contains(@name,'contact')])",
+        "Email" : "(//input[contains(@name,'email')])",
+        "SelectPassenger" : {
+            "Field" : "(//select[@name='selectedPassenger'])",
+            "Tag" : "label"
+        },
+        "UpdateButton" : "(//button[contains(text(),'Update')])",
+        "UpdatedSucessfullMessage" : "(//div[contains(text(),'Saved Successfully')])",
+        "GoToOrderPageButton" : "(//button[contains(text(),'Go to order details')])",
+        "CheckBoxForSelecting" : "(//div//label[contains(@for,'splitPassenger')])",
+        "SplitOrderButton" : "//button[not(contains(@class,'disabled')) and contains(text(),'Split Order')]",
+        "ProceedAndConfirmButton" : "//div//button[contains(text(),'Proceed & Confirm')]",
+        "ConfirmPopUp" : {
+            "Message" : "//div[contains(text(),'A new order with the selected passengers will be c')]",
+            "ContinueButton" : "//button[contains(text(),'Continue')]"
+        },
+        "SuccessfullPopUp" : {
+            "Message" : "//strong[contains(text(),'Order changed successfully')]",
+            "ViewOrderButton" : "//button[contains(text(),'View Order')]"
+        },
+        "Remove" : {
+            "OrderChangedSuccessfully" : "//strong[contains(text(),'Order changed successfully!')]",
+            "ViewOrderButton" : "//button[contains(text(),'View Order')]"
+        }
+    }
+}

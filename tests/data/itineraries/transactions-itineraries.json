@@ -1,0 +1,86 @@
+{
+    "itineraries": [
+        {
+            "ref": "01",
+            "ODList": {
+                    "airlinecodes" : "EK",
+                    "triptype" : "One Way",
+                    "origin": "DEL",
+                    "destination": "DXB",
+                    "departureDateOffset": "65",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+
+            },
+            "paxList": ["T1-ADT"]
+        },
+        {
+            "ref": "02",
+            "ODList": {
+                    "airlinecodes" : "EK",
+                    "triptype" : "One Way",
+                    "origin": "DEL",
+                    "destination": "DXB",
+                    "departureDateOffset": "65",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+
+            },
+            "paxList": ["T1-ADT", "T2-ADT"]
+        },
+        {
+            "ref": "03",
+            "ODList": {
+                    "airlinecodes" : "QR",
+                    "triptype" : "One Way",
+                    "origin": "BOM",
+                    "destination": "DOH",
+                    "departureDateOffset": "65",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+
+            },
+            "paxList": ["T1-ADT"]
+        },
+        {
+            "ref": "04",
+            "ODList": {
+                    "airlinecodes" : "QR",
+                    "triptype" : "One Way",
+                    "origin": "BOM",
+                    "destination": "DOH",
+                    "departureDateOffset": "65",
+                    "cabin": "Business",
+                    "rbd": ["Any"]
+
+            },
+            "paxList": ["T1-ADT", "T2-ADT"]
+        },
+        {
+            "ref": "05",
+            "ODList": {
+                    "airlinecodes" : "EK",
+                    "triptype" : "One Way",
+                    "origin": "DEL",
+                    "destination": "DXB",
+                    "departureDateOffset": "65",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT"]
+        },
+        {
+            "ref": "06",
+            "ODList": {
+                    "airlinecodes" : "QR",
+                    "triptype" : "One Way",
+                    "origin": "MCT",
+                    "destination": "DOH",
+                    "departureDateOffset": "65",
+                    "cabin": "Economy",
+                    "rbd": ["Any"]
+            },
+            "paxList": ["T1-ADT", "T2-ADT"]
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "Heading" : "//h3[contains(text(),'New Order')]",
+    "Passenger" : {
+        "Tab" : "//li//a[contains(text(),'Passengers')]",
+        "PassportNumber" : "(//input[@placeholder='Passport number'])",
+        "PassportNumberSearchIcon" : "(//input[@placeholder='Passport number']//following::div[@class='search-icon'][1])",
+        "MatchingProfiles" : {
+            "Heading" : "//h6[contains(text(),'Matching profiles')]",
+            "PassportNumberList" : "(//tbody/tr/td[1])"
+        },
+        "PassportNationality" : {
+            "Field" : "(//select[@name='nationality'])",
+            "Tag" : "value"
+        },
+        "PassportExpiry" : {
+            "Icon" : "(//input[@placeholder='Passport Expiry']//following::button[@class='btn-date-icon'][1])",
+            "Menu" : "//div[@class='react-datepicker__month-container']",
+            "YearField" : "//select[@class='react-datepicker__year-select']",
+            "MonthField" : "//select[@class='react-datepicker__month-select']",
+            "DayField" : "(//div[contains(@class,'react-datepicker__day react-datepicker__day') and @aria-disabled='false'])",
+            "Tag" : "value"
+        },
+        "Title" : {
+            "Field" : "(//select[@name='title'])",
+            "Tag" : "value"
+        },
+        "Gender" : {
+            "Field" : "(//select[@name='gender'])",
+            "Tag" : "Label"
+        },
+        "DateOfBirth" : {
+            "Icon" : "(//input[@placeholder='D.O.B']//following::button[@class='btn-date-icon'][1])",
+            "Menu" : "//div[@class='react-datepicker__month-container']",
+            "Year" : {
+                "Field" : "//div[@class='react-datepicker__year-read-view']//span[1]",
+                "Menu" : "//div[@class='react-datepicker__year-dropdown react-datepicker__year-dropdown--scrollable']",
+                "MenuEach" : "(//div[@class='react-datepicker__year-option'])"
+                },
+            "Month" : {
+                    "Field" : "//div[@class='react-datepicker__month-read-view']//span[1]",
+                    "Menu" : "//div[@class='react-datepicker__month-dropdown']",
+                    "MenuEach" : "(//div[contains(@class,'react-datepicker__month-option')])"
+                },
+            "DayField" : "(//div[contains(@class,'react-datepicker__day react-datepicker__day') and @aria-disabled='false'])"
+        },
+        "FirstName" : "(//input[@name='firstName'])",
+        "MiddleName" : "(//input[@name='middleName'])",
+        "MiddlenameDisabled" : "(//div[contains(@class,'disabled')]//input[@name='middleName'])",
+        "LastName" : "(//input[@name='lastName'])",
+        "SameAsPrimaryPassenger" : "(//div//label[contains(text(),'Same as primary passenger')])",
+        "ContactNumberISD" : "(//input[@name='countryIsdCode'])",
+        "CountryLabel" : "(//span[@class='country-label'])",
+        "ContactNumber" : "(//input[@name='contact'])",
+        "DisabledContactNumber" : "(//div[contains(@class,'disabled')]//div//div//label[contains(text(),'Contact Number')])",
+        "EmailAddress" : "(//input[@name='email'])",
+        "FrequentFlyerNumberAddorEdit" : {
+            "FrequentFlyerNumberAddorEditIcon" : "(//label[contains(text(),'Frequent Flyer Number')]//span[contains(text(),'Add/Edit')])",
+            "Heading" : "//h6[contains(text(),'Frequent Flyer Number')]",
+            "AirlineCode" : {
+                "Field" : "//select[@name='airlineCode']",
+                "Tag" : "value"
+            },
+            "FFAccountNumber" : "//input[@name='ffNumber']",
+            "UpdateButton" : "//button[contains(text(),'Update')]",
+            "CloseIcon" : "//span[contains(text(),'close')]"
+        }, 
+        "FrequentFlyerNumber" : {
+            "Field" : "(//select[@name='ffNumber'])",
+            "Tag" : "Label"
+        },
+        "NextButton" : "(//button[contains(text(),'Next')])",
+        "INFSelectingPassenger" : {
+            "Field" : "(//select[@name='selectedPassenger'])",
+            "Tag" : "value"
+        }
+    },
+    "PassengerCount" : "(//div[@class='link'])",
+    "PassengerArrowUp" : "((//div[@class='link'])//following::div[1]//i[contains(text(),'arrow_drop_up')])",
+    "PassengerArrowDown" : "(//i[contains(text(),'arrow_drop_down')])",
+    "SaveProfileButton" : "(//button[@name='saveProfile'])",
+    "SaveProfileSavedMessage" : "(//div[contains(text(),'Passenger details are saved')])",
+    "FareDetails" : {
+        "ExpandButton" : "//i[contains(text(),'expand_more')]",
+        "BaseFareValue" : "(//tr//td[contains(text(),'Base Fare')]//following::td)[1]",
+        "Discounts" : "(//tr//td[contains(text(),'Discounts')]//following::td)[1]",
+        "ServiceFee" : "(//tr//td[contains(text(),'Service Fee')]//following::td)[1]",
+        "SubTypeCount" : "//div//div[contains(@class,'tax-pills')]",
+        "SubTypeDiscount" : "(//td[contains(text(),'Discounts')]//div//div[contains(@class,'tax-pills')])",
+        "SubTypeServiceFee" : "(//td[contains(text(),'Service Fee')]//div//div[contains(@class,'tax-pills')])"
+    },
+    "SeatMap" : {
+        "Tab" : "//li[@class='active']//a[contains(text(),'Seat Map')]"
+    },
+    "ProceedAndBook" : "//button[contains(text(),'Proceed & Book') and not(@class='btn btn--secondary btn--disabled')]",
+    "Error" : "//strong[contains(text(),'Errors:')]",
+    "ErrorMessage" : "//strong[contains(text(),'Errors:')]//following::p[1]",
+    "ErrorAlert" : "//div[@role='alert']",
+    "Booked" : {
+        "OrderNumberLabel" : "//p[contains(text(),'Order Number')]",
+        "ReferenceValue" : "(//div[contains(@class,'booking-ref')]//p[@class='value'])[1]",
+        "ViewOrderButton" : "//button[contains(text(),'View Order')]",
+        "PrintButton" : "//button//i[contains(text(),'print')]",
+        "EmailButton" : "//button//i[contains(text(),'email')]"
+    }
+}

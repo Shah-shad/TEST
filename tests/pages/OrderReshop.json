@@ -1,0 +1,18 @@
+{
+    "FlightCardCurrent" : "(//div[contains(@class,'current-selection')])",
+    "FlightTimeCurrent" : "(//div[@class='flight-card current-selection']//p[@class='time'])[1]",
+    "FlightCard" : "(//div[contains(@class,'flight-card')])",
+    "FlightCardStartTime" : "(//div[@class='flight-card']//img//following::p[@class='time'][1])",
+    "ContinueButton" : "//button[contains(text(),'Continue')]",
+    "FlightCardExpandmore" : "(//span[@class='class-name']//following::i[1])",
+    "RBDCards" : {
+        "RBDCard" : "(//label[contains(@for,'cardCheckbox')])",
+        "RBDCardLetter" : "(//p[contains(text(),'RBD') and contains(@class,'justify-content-between')]//child::span[contains(@class,'rbd-span')])[1]",
+        "RBDCardFarebasis" : "(//p[contains(text(),'FareBasis')]//child::span[contains(@class,'fare-basis')])"
+    },
+    "Filters" : {
+        "Connections" : {
+            "Heading" : "//p[contains(text(),'Connections')]"
+        }
+    }
+}

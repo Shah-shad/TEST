@@ -1,0 +1,6 @@
+{
+    "FirstName": "//p[contains(text(),'First Name')]//following::p[contains(@class,'value')][1]",
+    "LastName" : "//p[contains(text(),'Last Name')]//following::p[contains(@class,'value')][1]",
+    "EmailID": "//p[contains(text(),'Email Id')]//following::p[contains(@class,'value')][1]",
+    "GDSUserID": "//p[contains(text(),'GDS User ID')]//following::p[contains(@class,'value')][1]"
+}
