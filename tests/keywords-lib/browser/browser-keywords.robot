@@ -9,7 +9,8 @@ Documentation    Provides framework keywords for Test Data Management. Used For 
 Open Chrome Browser Maximize
     [Arguments]     ${URL}
     Close Browser    ALL
-    New Browser    chromium    ${Headless}    
+    # New Browser    chromium    ${Headless}    
+    New Browser    chromium    True
     New Page    ${URL}
     Set Size Of Window
     
